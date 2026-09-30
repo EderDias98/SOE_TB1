@@ -18,7 +18,7 @@ GRUPO_CONSUMIDOR = 'grupo-sit1-volatilidade'
 ARQUIVO_SPIKES = 'spikes_volatilidade.json'
 
 JANELA_TEMPO_SEGUNDOS = 60.0
-LIMIAR_VARIACAO_PCT = 0.05
+LIMIAR_VARIACAO_PCT = 0.1
 
 
 def carregar_spikes_existentes():

@@ -1,0 +1,780 @@
+[
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603338.149043,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603307.8597069,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603277.3250084,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603246.2538283,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603215.400998,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603184.7364423,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603153.923681,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603123.9106965,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603092.573318,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603061.9981403,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603030.7743905,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790603000.264339,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602970.0005941,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602939.3678572,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602908.7471957,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602878.571264,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602848.0485125,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602817.8089862,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602787.605151,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602756.604311,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602726.2035549,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602695.3506892,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602665.310752,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602634.7744594,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602604.4926069,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602573.0045006,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602542.5460196,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602511.9221404,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602481.0194757,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602449.7410529,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602419.7079895,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602389.3374395,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602359.2813997,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602328.9863284,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602298.530606,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602267.8305721,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602236.9749382,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602206.1955442,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 3,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT"
+    ],
+    "descricao": "Estresse detectado: 3 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602175.7334661,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 4,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "ETHUSDT"
+    ],
+    "descricao": "Estresse detectado: 4 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602145.0542514,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 4,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "ETHUSDT"
+    ],
+    "descricao": "Estresse detectado: 4 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602114.7817872,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 4,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "ETHUSDT"
+    ],
+    "descricao": "Estresse detectado: 4 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602084.0304377,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 5,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "descricao": "Estresse detectado: 5 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602053.8454168,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790602023.420929,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790601992.930183,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790601962.7954788,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 6,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT",
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "descricao": "Estresse detectado: 6 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790601932.4724302,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 3,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT"
+    ],
+    "descricao": "Estresse detectado: 3 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790601902.4554322,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 3,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT"
+    ],
+    "descricao": "Estresse detectado: 3 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790601871.3342013,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 3,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT"
+    ],
+    "descricao": "Estresse detectado: 3 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  },
+  {
+    "tipo_evento": "ALERTA_ESTRESSE_DE_MERCADO",
+    "nivel_severidade": "CRITICO",
+    "timestamp": 1790601841.2303672,
+    "janela_analise_segundos": 120.0,
+    "qtd_moedas_afetadas": 3,
+    "moedas_afetadas": [
+      "SOLUSDT",
+      "ADAUSDT",
+      "XRPUSDT"
+    ],
+    "descricao": "Estresse detectado: 3 moedas apresentaram spikes de volatilidade nos últimos 2 minutos."
+  }
+]

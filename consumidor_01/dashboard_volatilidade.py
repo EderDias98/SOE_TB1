@@ -69,7 +69,7 @@ if spikes:
     st.dataframe(df, use_container_width=True, hide_index=True)
 else:
     st.info(
-        "🎧 Aguardando oscilações de preço... Certifique-se de que o script `consumidor_volatilidade_3.py` está rodando.")
+        "🎧 Aguardando oscilações de preço... Certifique-se de que o script `consumidor_volatilidade.py` está rodando.")
 
 # Atualização automática da página a cada 2 segundos
 time.sleep(2)

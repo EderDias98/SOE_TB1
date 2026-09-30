@@ -1,0 +1,502 @@
+[
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1594,
+    "preco_inicial": 0.251,
+    "preco_atual": 0.2506,
+    "timestamp": 1790603287.6100283,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1196,
+    "preco_inicial": 0.2509,
+    "preco_atual": 0.2506,
+    "timestamp": 1790603280.9619138,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1772,
+    "preco_inicial": 1.524,
+    "preco_atual": 1.5267,
+    "timestamp": 1790603258.6299152,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1998,
+    "preco_inicial": 0.2503,
+    "preco_atual": 0.2508,
+    "timestamp": 1790603257.478061,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1083,
+    "preco_inicial": 120.02,
+    "preco_atual": 120.15,
+    "timestamp": 1790603249.626247,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1575,
+    "preco_inicial": 1.5235,
+    "preco_atual": 1.5259,
+    "timestamp": 1790603246.2538283,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1998,
+    "preco_inicial": 0.2502,
+    "preco_atual": 0.2507,
+    "timestamp": 1790603244.937539,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BNBUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1186,
+    "preco_inicial": 767.17,
+    "preco_atual": 768.08,
+    "timestamp": 1790603243.53282,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1667,
+    "preco_inicial": 120.01,
+    "preco_atual": 120.21,
+    "timestamp": 1790603242.5651314,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BTCUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1203,
+    "preco_inicial": 83689.34,
+    "preco_atual": 83790.01,
+    "timestamp": 1790603241.1575196,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.2035,
+    "preco_inicial": 1.5233,
+    "preco_atual": 1.5264,
+    "timestamp": 1790603240.2370706,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1998,
+    "preco_inicial": 0.2503,
+    "preco_atual": 0.2508,
+    "timestamp": 1790603237.8363235,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BNBUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1291,
+    "preco_inicial": 767.12,
+    "preco_atual": 768.11,
+    "timestamp": 1790603236.8115158,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1917,
+    "preco_inicial": 120.01,
+    "preco_atual": 120.24,
+    "timestamp": 1790603235.6368241,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BTCUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1247,
+    "preco_inicial": 83704.01,
+    "preco_atual": 83808.4,
+    "timestamp": 1790603233.3146412,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1969,
+    "preco_inicial": 1.5235,
+    "preco_atual": 1.5265,
+    "timestamp": 1790603232.3476775,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.2797,
+    "preco_inicial": 0.2503,
+    "preco_atual": 0.251,
+    "timestamp": 1790603231.589503,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BNBUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.116,
+    "preco_inicial": 767.27,
+    "preco_atual": 768.16,
+    "timestamp": 1790603230.1209579,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1667,
+    "preco_inicial": 120.01,
+    "preco_atual": 120.21,
+    "timestamp": 1790603229.3822165,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ETHUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1095,
+    "preco_inicial": 2695.03,
+    "preco_atual": 2697.98,
+    "timestamp": 1790603228.648563,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BTCUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1175,
+    "preco_inicial": 83704.58,
+    "preco_atual": 83802.94,
+    "timestamp": 1790603227.7006822,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.2627,
+    "preco_inicial": 1.5228,
+    "preco_atual": 1.5268,
+    "timestamp": 1790603225.9449227,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.2798,
+    "preco_inicial": 0.2502,
+    "preco_atual": 0.2509,
+    "timestamp": 1790603225.252055,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BNBUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1434,
+    "preco_inicial": 767.08,
+    "preco_atual": 768.18,
+    "timestamp": 1790603224.3958693,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.2251,
+    "preco_inicial": 119.95,
+    "preco_atual": 120.22,
+    "timestamp": 1790603223.634472,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ETHUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1366,
+    "preco_inicial": 2694.63,
+    "preco_atual": 2698.31,
+    "timestamp": 1790603222.5977514,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "BTCUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1119,
+    "preco_inicial": 83696.36,
+    "preco_atual": 83790.01,
+    "timestamp": 1790603221.8929439,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1773,
+    "preco_inicial": 1.5232,
+    "preco_atual": 1.5259,
+    "timestamp": 1790603220.6501732,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1597,
+    "preco_inicial": 0.2504,
+    "preco_atual": 0.2508,
+    "timestamp": 1790603219.6752892,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1114,
+    "preco_inicial": 1.5257,
+    "preco_atual": 1.524,
+    "timestamp": 1790603199.0404627,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1994,
+    "preco_inicial": 0.2508,
+    "preco_atual": 0.2503,
+    "timestamp": 1790603198.2917697,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ETHUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1008,
+    "preco_inicial": 2698.12,
+    "preco_atual": 2695.4,
+    "timestamp": 1790603193.3557887,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1965,
+    "preco_inicial": 1.5265,
+    "preco_atual": 1.5235,
+    "timestamp": 1790603190.925516,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.279,
+    "preco_inicial": 0.2509,
+    "preco_atual": 0.2502,
+    "timestamp": 1790603189.9123182,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.2096,
+    "preco_inicial": 1.5265,
+    "preco_atual": 1.5233,
+    "timestamp": 1790603184.7364423,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1994,
+    "preco_inicial": 0.2508,
+    "preco_atual": 0.2503,
+    "timestamp": 1790603183.8203878,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1248,
+    "preco_inicial": 120.16,
+    "preco_atual": 120.01,
+    "timestamp": 1790603181.3208013,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1835,
+    "preco_inicial": 1.5263,
+    "preco_atual": 1.5235,
+    "timestamp": 1790603176.634957,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1596,
+    "preco_inicial": 0.2507,
+    "preco_atual": 0.2503,
+    "timestamp": 1790603175.9723446,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.2162,
+    "preco_inicial": 1.5261,
+    "preco_atual": 1.5228,
+    "timestamp": 1790603170.5357952,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.2392,
+    "preco_inicial": 0.2508,
+    "preco_atual": 0.2502,
+    "timestamp": 1790603169.7599578,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1498,
+    "preco_inicial": 120.13,
+    "preco_atual": 119.95,
+    "timestamp": 1790603168.256916,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ETHUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1045,
+    "preco_inicial": 2697.45,
+    "preco_atual": 2694.63,
+    "timestamp": 1790603167.6185884,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1835,
+    "preco_inicial": 1.526,
+    "preco_atual": 1.5232,
+    "timestamp": 1790603165.861402,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1197,
+    "preco_inicial": 0.2507,
+    "preco_atual": 0.2504,
+    "timestamp": 1790603164.712789,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📉 QUEDA BRUSCA",
+    "variacao_pct": -0.1196,
+    "preco_inicial": 0.2509,
+    "preco_atual": 0.2506,
+    "timestamp": 1790603158.800572,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.125,
+    "preco_inicial": 120.02,
+    "preco_atual": 120.17,
+    "timestamp": 1790603142.020739,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "SOLUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1,
+    "preco_inicial": 120.0,
+    "preco_atual": 120.12,
+    "timestamp": 1790603129.9129074,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "XRPUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1443,
+    "preco_inicial": 1.5243,
+    "preco_atual": 1.5265,
+    "timestamp": 1790603126.8014066,
+    "janela_segundos": 60.0
+  },
+  {
+    "tipo_evento": "SPIKE_VOLATILIDADE",
+    "moeda": "ADAUSDT",
+    "direcao": "📈 ALTA BRUSCA",
+    "variacao_pct": 0.1597,
+    "preco_inicial": 0.2504,
+    "preco_atual": 0.2508,
+    "timestamp": 1790603126.059654,
+    "janela_segundos": 60.0
+  }
+]

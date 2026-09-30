@@ -13,20 +13,21 @@ logging.basicConfig(
 )
 logger = logging.getLogger("CryptoProducer")
 
-# Endereços dos brokers expostos no localhost (Cluster multi-broker)
+
 BOOTSTRAP_SERVERS = 'localhost:9092,localhost:9093,localhost:9094'
 TOPICO_KAFKA = 'eventos-crypto-primitivos'
 INTERVALO_ENTRE_CICLOS = 0.1  # Tempo em segundos entre cada varredura completa das moedas
 
-# Lista de pares de criptomoedas para monitoramento contínuo
-LISTA_MOEDAS = [
-    "BTCUSDT",  # Bitcoin
-    "ETHUSDT",  # Ethereum
-    "SOLUSDT",  # Solana
-    "BNBUSDT",  # Binance Coin
-    "ADAUSDT",  # Cardano
-    "XRPUSDT",  # Ripple
-]
+def carregar_lista_moedas(caminho="moedas.json"):
+    """Lê a lista de moedas do arquivo JSON. Retorna lista padrão em caso de falha."""
+    lista_padrao = ["BTCUSDT", "ETHUSDT"]
+    try:
+        with open(caminho, "r", encoding="utf-8") as f:
+            dados = json.load(f)
+            return dados.get("moedas", lista_padrao)
+    except Exception as e:
+        logger.warning(f"⚠️ Não foi possível ler '{caminho}': {e}. Usando lista padrão.")
+        return lista_padrao
 
 
 def callback_envio(err, msg):
@@ -49,12 +50,12 @@ def executar_produtor():
         'client.id': 'crypto-producer-host',
         'message.timeout.ms': 120000,
 
-        # OTIMIZAÇÃO DE ALTA VAZÃO E BAIXA LATÊNCIA
+
         'linger.ms': 5,  # Espera apenas 5ms para agrupar mensagens antes do envio
         'batch.size': 131072,  # Lotes de até 128 KB em memória
         'compression.type': 'snappy',  # Compressão leve para rede
 
-        # NÍVEL DE CONFIRMAÇÃO (1 = Confirmação do líder)
+
         'acks': 1,
 
         'queue.buffering.max.messages': 200000,
@@ -74,8 +75,9 @@ def executar_produtor():
 
     try:
         while True:
-            # Consome as cotações individuais geradas sem divisão por lotes
-            for evento in coletor.coletar_fluxo_cripto(LISTA_MOEDAS):
+            moedas_atuais = carregar_lista_moedas()
+
+            for evento in coletor.coletar_fluxo_cripto(moedas_atuais):
 
                 if not evento or 'key' not in evento:
                     continue
@@ -83,7 +85,7 @@ def executar_produtor():
                 chave = evento['key']
                 payload = evento['payload']
 
-                # Envia o evento primitivo individual para o tópico Kafka
+
                 producer.produce(
                     topic=TOPICO_KAFKA,
                     key=chave.encode('utf-8'),
@@ -91,10 +93,10 @@ def executar_produtor():
                     callback=callback_envio
                 )
 
-                # Processa os callbacks da fila do Kafka sem bloquear a execução
+
                 producer.poll(0)
 
-            # Descarrega o buffer do Kafka após consultar toda a lista de moedas
+
             logger.info("🧹 Descarregando buffer do Kafka para a rodada atual...")
             producer.flush(timeout=10.0)
 

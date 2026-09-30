@@ -1,0 +1,502 @@
+[
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.175,
+    "media_lenta": 120.1744,
+    "preco_atual": 120.16,
+    "diferenca_abs": 0.0006,
+    "diferenca_pct": 0.0005,
+    "timestamp": 1790603336.3407495
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2508,
+    "media_lenta": 0.2507,
+    "preco_atual": 0.2507,
+    "diferenca_abs": 0.0,
+    "diferenca_pct": 0.0155,
+    "timestamp": 1790603323.9969738
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5267,
+    "media_lenta": 1.5265,
+    "preco_atual": 1.5271,
+    "diferenca_abs": 0.0002,
+    "diferenca_pct": 0.0138,
+    "timestamp": 1790603317.5336244
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 768.035,
+    "media_lenta": 768.0,
+    "preco_atual": 768.18,
+    "diferenca_abs": 0.035,
+    "diferenca_pct": 0.0046,
+    "timestamp": 1790603315.4754565
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2697.6,
+    "media_lenta": 2697.586,
+    "preco_atual": 2698.0,
+    "diferenca_abs": 0.014,
+    "diferenca_pct": 0.0005,
+    "timestamp": 1790603314.177256
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83787.975,
+    "media_lenta": 83786.106,
+    "preco_atual": 83795.95,
+    "diferenca_abs": 1.869,
+    "diferenca_pct": 0.0022,
+    "timestamp": 1790603313.5092278
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.985,
+    "media_lenta": 767.976,
+    "preco_atual": 767.98,
+    "diferenca_abs": 0.009,
+    "diferenca_pct": 0.0012,
+    "timestamp": 1790603302.9825583
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5265,
+    "media_lenta": 1.5264,
+    "preco_atual": 1.5265,
+    "diferenca_abs": 0.0002,
+    "diferenca_pct": 0.0124,
+    "timestamp": 1790603297.1625705
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83803.345,
+    "media_lenta": 83788.794,
+    "preco_atual": 83810.52,
+    "diferenca_abs": 14.551,
+    "diferenca_pct": 0.0174,
+    "timestamp": 1790603276.2444322
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2509,
+    "media_lenta": 0.2508,
+    "preco_atual": 0.2508,
+    "diferenca_abs": 0.0001,
+    "diferenca_pct": 0.0239,
+    "timestamp": 1790603274.4066665
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 768.105,
+    "media_lenta": 768.032,
+    "preco_atual": 768.21,
+    "diferenca_abs": 0.073,
+    "diferenca_pct": 0.0095,
+    "timestamp": 1790603273.0724208
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.21,
+    "media_lenta": 120.186,
+    "preco_atual": 120.22,
+    "diferenca_abs": 0.024,
+    "diferenca_pct": 0.02,
+    "timestamp": 1790603261.0806468
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2697.6,
+    "media_lenta": 2697.462,
+    "preco_atual": 2697.86,
+    "diferenca_abs": 0.138,
+    "diferenca_pct": 0.0051,
+    "timestamp": 1790603260.2321346
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83778.93,
+    "media_lenta": 83777.139,
+    "preco_atual": 83789.85,
+    "diferenca_abs": 1.791,
+    "diferenca_pct": 0.0021,
+    "timestamp": 1790603259.4944365
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5261,
+    "media_lenta": 1.5259,
+    "preco_atual": 1.5267,
+    "diferenca_abs": 0.0002,
+    "diferenca_pct": 0.0111,
+    "timestamp": 1790603258.6299152
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2508,
+    "media_lenta": 0.2505,
+    "preco_atual": 0.2509,
+    "diferenca_abs": 0.0003,
+    "diferenca_pct": 0.1158,
+    "timestamp": 1790603213.5665987
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83738.01,
+    "media_lenta": 83722.433,
+    "preco_atual": 83760.01,
+    "diferenca_abs": 15.577,
+    "diferenca_pct": 0.0186,
+    "timestamp": 1790603209.444246
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5248,
+    "media_lenta": 1.5242,
+    "preco_atual": 1.5255,
+    "diferenca_abs": 0.0006,
+    "diferenca_pct": 0.0367,
+    "timestamp": 1790603208.0617893
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.76,
+    "media_lenta": 767.417,
+    "preco_atual": 767.76,
+    "diferenca_abs": 0.343,
+    "diferenca_pct": 0.0447,
+    "timestamp": 1790603206.4813516
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.1,
+    "media_lenta": 120.055,
+    "preco_atual": 120.1,
+    "diferenca_abs": 0.045,
+    "diferenca_pct": 0.0375,
+    "timestamp": 1790603205.707458
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2696.44,
+    "media_lenta": 2696.042,
+    "preco_atual": 2696.44,
+    "diferenca_abs": 0.398,
+    "diferenca_pct": 0.0148,
+    "timestamp": 1790603204.017666
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2509,
+    "media_lenta": 0.2508,
+    "preco_atual": 0.2509,
+    "diferenca_abs": 0.0,
+    "diferenca_pct": 0.0199,
+    "timestamp": 1790603131.5934885
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2508,
+    "media_lenta": 0.2507,
+    "preco_atual": 0.2507,
+    "diferenca_abs": 0.0,
+    "diferenca_pct": 0.0054,
+    "timestamp": 1790603116.417092
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83727.335,
+    "media_lenta": 83726.2345,
+    "preco_atual": 83724.87,
+    "diferenca_abs": 1.1005,
+    "diferenca_pct": 0.0013,
+    "timestamp": 1790603102.6844563
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5257,
+    "media_lenta": 1.5256,
+    "preco_atual": 1.5256,
+    "diferenca_abs": 0.0,
+    "diferenca_pct": 0.0015,
+    "timestamp": 1790603101.5249367
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.575,
+    "media_lenta": 767.5045,
+    "preco_atual": 767.67,
+    "diferenca_abs": 0.0705,
+    "diferenca_pct": 0.0092,
+    "timestamp": 1790603098.390171
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.075,
+    "media_lenta": 120.0336,
+    "preco_atual": 120.11,
+    "diferenca_abs": 0.0414,
+    "diferenca_pct": 0.0345,
+    "timestamp": 1790603097.7704542
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2696.515,
+    "media_lenta": 2696.4527,
+    "preco_atual": 2696.89,
+    "diferenca_abs": 0.0623,
+    "diferenca_pct": 0.0023,
+    "timestamp": 1790603097.1923933
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2509,
+    "media_lenta": 0.2508,
+    "preco_atual": 0.2509,
+    "diferenca_abs": 0.0,
+    "diferenca_pct": 0.0163,
+    "timestamp": 1790603094.0692801
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5281,
+    "media_lenta": 1.528,
+    "preco_atual": 1.5279,
+    "diferenca_abs": 0.0001,
+    "diferenca_pct": 0.0071,
+    "timestamp": 1790603030.7743905
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.155,
+    "media_lenta": 120.1509,
+    "preco_atual": 120.15,
+    "diferenca_abs": 0.0041,
+    "diferenca_pct": 0.0034,
+    "timestamp": 1790603022.2160358
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83791.73,
+    "media_lenta": 83779.0845,
+    "preco_atual": 83795.79,
+    "diferenca_abs": 12.6455,
+    "diferenca_pct": 0.0151,
+    "timestamp": 1790603020.1381927
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2512,
+    "media_lenta": 0.2512,
+    "preco_atual": 0.2513,
+    "diferenca_abs": 0.0001,
+    "diferenca_pct": 0.0344,
+    "timestamp": 1790603018.6784756
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.68,
+    "media_lenta": 767.6473,
+    "preco_atual": 767.76,
+    "diferenca_abs": 0.0327,
+    "diferenca_pct": 0.0043,
+    "timestamp": 1790603017.8819184
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2697.4,
+    "media_lenta": 2697.2291,
+    "preco_atual": 2697.58,
+    "diferenca_abs": 0.1709,
+    "diferenca_pct": 0.0063,
+    "timestamp": 1790603016.1233652
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.75,
+    "media_lenta": 767.597,
+    "preco_atual": 767.88,
+    "diferenca_abs": 0.153,
+    "diferenca_pct": 0.0199,
+    "timestamp": 1790602970.0005941
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.235,
+    "media_lenta": 120.217,
+    "preco_atual": 120.28,
+    "diferenca_abs": 0.018,
+    "diferenca_pct": 0.015,
+    "timestamp": 1790602969.3078296
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.25,
+    "media_lenta": 120.237,
+    "preco_atual": 120.27,
+    "diferenca_abs": 0.013,
+    "diferenca_pct": 0.0108,
+    "timestamp": 1790602952.1847858
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83762.355,
+    "media_lenta": 83748.885,
+    "preco_atual": 83760.01,
+    "diferenca_abs": 13.47,
+    "diferenca_pct": 0.0161,
+    "timestamp": 1790602937.879866
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.2511,
+    "media_lenta": 0.251,
+    "preco_atual": 0.2512,
+    "diferenca_abs": 0.0002,
+    "diferenca_pct": 0.0637,
+    "timestamp": 1790602936.1878526
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.695,
+    "media_lenta": 767.593,
+    "preco_atual": 767.63,
+    "diferenca_abs": 0.102,
+    "diferenca_pct": 0.0133,
+    "timestamp": 1790602935.3316073
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.5282,
+    "media_lenta": 1.5279,
+    "preco_atual": 1.5291,
+    "diferenca_abs": 0.0003,
+    "diferenca_pct": 0.017,
+    "timestamp": 1790602929.4005375
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2696.85,
+    "media_lenta": 2696.4064,
+    "preco_atual": 2696.85,
+    "diferenca_abs": 0.4436,
+    "diferenca_pct": 0.0165,
+    "timestamp": 1790602924.8024256
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ADAUSDT",
+    "media_rapida": 0.251,
+    "media_lenta": 0.2509,
+    "preco_atual": 0.251,
+    "diferenca_abs": 0.0,
+    "diferenca_pct": 0.0163,
+    "timestamp": 1790602856.677081
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BTCUSDT",
+    "media_rapida": 83717.665,
+    "media_lenta": 83705.077,
+    "preco_atual": 83719.56,
+    "diferenca_abs": 12.588,
+    "diferenca_pct": 0.015,
+    "timestamp": 1790602848.0485125
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "XRPUSDT",
+    "media_rapida": 1.528,
+    "media_lenta": 1.5278,
+    "preco_atual": 1.528,
+    "diferenca_abs": 0.0002,
+    "diferenca_pct": 0.0098,
+    "timestamp": 1790602846.8534706
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "BNBUSDT",
+    "media_rapida": 767.385,
+    "media_lenta": 767.374,
+    "preco_atual": 767.44,
+    "diferenca_abs": 0.011,
+    "diferenca_pct": 0.0014,
+    "timestamp": 1790602845.2451046
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "SOLUSDT",
+    "media_rapida": 120.175,
+    "media_lenta": 120.163,
+    "preco_atual": 120.2,
+    "diferenca_abs": 0.012,
+    "diferenca_pct": 0.01,
+    "timestamp": 1790602844.4852877
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2695.445,
+    "media_lenta": 2694.982,
+    "preco_atual": 2695.57,
+    "diferenca_abs": 0.463,
+    "diferenca_pct": 0.0172,
+    "timestamp": 1790602843.6367934
+  },
+  {
+    "tipo_evento": "GOLDEN_CROSS",
+    "moeda": "ETHUSDT",
+    "media_rapida": 2690.315,
+    "media_lenta": 2690.2382,
+    "preco_atual": 2691.34,
+    "diferenca_abs": 0.0768,
+    "diferenca_pct": 0.0029,
+    "timestamp": 1790602707.624833
+  }
+]
