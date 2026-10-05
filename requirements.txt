@@ -1,5 +1,7 @@
 confluent-kafka
 requests
 streamlit
-# 3.0.6 tem a DLL bloqueada pelo Smart App Control do Windows 11; a 3.0.5 carrega normalmente
-pandas==3.0.5
+# No Windows, a 3.0.6 tem a DLL bloqueada pelo Smart App Control; a 3.0.5 carrega normalmente.
+# Nos outros sistemas não há esse problema, e fixar a versão quebraria em Python < 3.11 (pandas 3 exige 3.11+).
+pandas==3.0.5; sys_platform == "win32"
+pandas; sys_platform != "win32"
