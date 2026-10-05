@@ -19,13 +19,19 @@ class CryptoCollector:
     """
     BASE_URL = "https://api.binance.com/api/v3/ticker/price"
 
+    TAMANHO_LOTE = 100  # máximo de símbolos por requisição em lote
+
     def __init__(
         self,
         timeout: float | Tuple[float, float] = (3.0, 10.0),
-        delay_entre_consultas: float = 0.2
+        delay_entre_consultas: float = 0.2,
+        consulta_em_lote: bool = True
     ):
         self.timeout = timeout
         self.delay = delay_entre_consultas
+        # True: uma requisição traz o preço de até 100 moedas (o tempo do ciclo quase não cresce com o número de moedas).
+        # False: uma requisição por moeda, em sequência (o ciclo cresce ~0,35 s por moeda).
+        self.consulta_em_lote = consulta_em_lote
 
     def sanitizar_simbolo(self, simbolo: str) -> str:
         """Garante que o símbolo esteja em maiúsculas e sem espaços (ex: 'btcusdt' -> 'BTCUSDT')."""
@@ -67,20 +73,67 @@ class CryptoCollector:
 
         return None
 
+    def consultar_lote(self, simbolos: List[str]) -> List[Dict[str, Any]]:
+        """
+        Consulta o preço de vários pares em uma única requisição (parâmetro 'symbols' da Binance).
+        Se o lote for recusado (ex.: algum símbolo inválido), consulta um a um.
+        """
+        simbolos_normalizados = [self.sanitizar_simbolo(s) for s in simbolos]
+        params = {"symbols": json.dumps(simbolos_normalizados, separators=(",", ":"))}
+
+        try:
+            resposta = requests.get(self.BASE_URL, params=params, timeout=self.timeout)
+
+            if resposta.status_code == 429:
+                logger.warning("⚠️ Rate limit (429) atingido na Binance. Pausando 10s...")
+                time.sleep(10.0)
+                return []
+
+            if resposta.status_code == 200:
+                agora = time.time()
+                return [
+                    {"key": d["symbol"], "simbolo": d["symbol"], "preco": float(d["price"]), "timestamp": agora}
+                    for d in resposta.json()
+                ]
+
+            logger.warning(f"⚠️ Lote recusado (HTTP {resposta.status_code}): {resposta.text[:150]}. Consultando um a um...")
+
+        except requests.RequestException as err:
+            logger.error(f"❌ Falha de rede/timeout na consulta em lote: {err}")
+            return []
+
+        resultados = []
+        for sim in simbolos_normalizados:
+            resultado = self.consultar_simbolo(sim)
+            if resultado:
+                resultados.append(resultado)
+            time.sleep(self.delay)
+        return resultados
+
+    def _consultar_todos(self, simbolos: List[str]) -> Generator[Dict[str, Any], None, None]:
+        if self.consulta_em_lote:
+            for i in range(0, len(simbolos), self.TAMANHO_LOTE):
+                yield from self.consultar_lote(simbolos[i:i + self.TAMANHO_LOTE])
+        else:
+            for sim in simbolos:
+                resultado = self.consultar_simbolo(sim)
+                if resultado:
+                    yield resultado
+                time.sleep(self.delay)
+
     def coletar_fluxo_cripto(
         self,
         simbolos: List[str]
     ) -> Generator[Dict[str, Any], None, None]:
         """
-        Consulta uma lista de pares de criptomoedas e gera as mensagens individualmente
-        para o Kafka sem divisão por lotes.
+        Consulta uma lista de pares de criptomoedas e gera uma mensagem por moeda para o Kafka.
         """
-        logger.info(f"🔍 Coletando fluxo de cotações para {len(simbolos)} símbolo(s)...")
+        modo = "em lote" if self.consulta_em_lote else "uma a uma"
+        logger.info(f"🔍 Coletando fluxo de cotações para {len(simbolos)} símbolo(s) ({modo})...")
         inicio = time.time()
 
         coletados = 0
-        for sim in simbolos:
-            resultado = self.consultar_simbolo(sim)
+        for resultado in self._consultar_todos(simbolos):
             if resultado:
                 coletados += 1
                 yield {
@@ -92,7 +145,6 @@ class CryptoCollector:
                         "timestamp": resultado["timestamp"]
                     }
                 }
-            time.sleep(self.delay)
 
         duracao = round(time.time() - inicio, 2)
         logger.info(f"✅ Coleta concluída: {coletados}/{len(simbolos)} cotações obtidas em {duracao}s.\n")

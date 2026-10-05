@@ -50,6 +50,13 @@ else:
     PYTHON_EXEC = sys.executable
     print(f"⚠️ Ambiente virtual .venv não localizado. Utilizando Python do sistema: {PYTHON_EXEC}")
 
+# headless: não pergunta o e-mail de boas-vindas do Streamlit (que travava o dashboard esperando input)
+STREAMLIT_CMD = [PYTHON_EXEC, "-m", "streamlit", "run", "--server.headless", "true"]
+
+# Força UTF-8 na saída dos subprocessos: como o stdout deles é um pipe, no Windows o Python
+# usaria cp1252 e quebraria ao imprimir emojis (o Consumidor 04 chegava a encerrar com erro).
+ENV_SUBPROCESSOS = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"}
+
 # Mapeamento dos serviços
 SERVICOS = [
     # 1. Processador de Eventos Compostos (Consumidor/Produtor Crítico)
@@ -65,10 +72,10 @@ SERVICOS = [
     ("Produtor Crypto", "produtor_01/produtor_crypto.py", [PYTHON_EXEC]),
 
     # 4. Dashboards (Executados via Streamlit através da .venv)
-    ("Dashboard Volatilidade", "consumidor_01/dashboard_volatilidade.py", [PYTHON_EXEC, "-m", "streamlit", "run"]),
-    ("Dashboard Cruzamento Médias", "consumidor_02/dashboard_cruzamento_medias.py", [PYTHON_EXEC, "-m", "streamlit", "run"]),
-    ("Dashboard Z-Score", "consumidor_03/dashboard_zscore.py", [PYTHON_EXEC, "-m", "streamlit", "run"]),
-    ("Dashboard Crypto Geral", "consumidor_04/dashboard_crypto.py", [PYTHON_EXEC, "-m", "streamlit", "run"]),
+    ("Dashboard Volatilidade", "consumidor_01/dashboard_volatilidade.py", STREAMLIT_CMD + ["--server.port", "8501"]),
+    ("Dashboard Cruzamento Médias", "consumidor_02/dashboard_cruzamento_medias.py", STREAMLIT_CMD + ["--server.port", "8502"]),
+    ("Dashboard Z-Score", "consumidor_03/dashboard_zscore.py", STREAMLIT_CMD + ["--server.port", "8503"]),
+    ("Dashboard Crypto Geral", "consumidor_04/dashboard_crypto.py", STREAMLIT_CMD + ["--server.port", "8504"]),
 ]
 
 # Lista para acompanhar os subprocessos ativos
@@ -164,6 +171,19 @@ def aguardar_brokers_kafka(brokers=[("localhost", 9092), ("localhost", 9093), ("
     log("Todos os Brokers Kafka estão online e prontos para conexões!", "SUCCESS")
 
 
+def configurar_topicos_kafka():
+    """Cria/atualiza os tópicos (partições, replicação e retenção) via admin_topicos.py."""
+    log("Configurando tópicos Kafka (partições, replicação e retenção)...")
+    res = subprocess.run([PYTHON_EXEC, str(BASE_DIR / "admin_topicos.py")], cwd=BASE_DIR, capture_output=True,
+                         text=True, encoding="utf-8", errors="replace", env=ENV_SUBPROCESSOS)
+    if res.stdout:
+        print(res.stdout)
+    if res.returncode != 0:
+        log(f"Falha ao configurar os tópicos Kafka:\n{res.stderr}", "ERROR")
+        sys.exit(1)
+    log("Tópicos Kafka configurados.", "SUCCESS")
+
+
 def verificar_arquivos_existentes():
     """Garante que todos os arquivos de script configurados realmente existem antes de rodar."""
     log("Validando estrutura de arquivos do projeto...")
@@ -195,7 +215,8 @@ def iniciar_servicos():
             text=True,
             bufsize=1,
             encoding="utf-8",
-            errors="replace"
+            errors="replace",
+            env=ENV_SUBPROCESSOS
         )
         processos_ativos.append((nome, proc))
 
@@ -250,6 +271,7 @@ def main():
     derrubar_processos_existentes()
     subir_docker_compose()
     aguardar_brokers_kafka()
+    configurar_topicos_kafka()
     iniciar_servicos()
 
     print("\n" + "=" * 70)

@@ -17,6 +17,7 @@ logger = logging.getLogger("CryptoProducer")
 BOOTSTRAP_SERVERS = 'localhost:9092,localhost:9093,localhost:9094'
 TOPICO_KAFKA = 'eventos-crypto-primitivos'
 INTERVALO_ENTRE_CICLOS = 0.1  # Tempo em segundos entre cada varredura completa das moedas
+CONSULTA_EM_LOTE = True  # False = uma requisição HTTP por moeda (modo antigo, mais lento com muitas moedas)
 
 def carregar_lista_moedas(caminho="moedas.json"):
     """Lê a lista de moedas do arquivo JSON. Retorna lista padrão em caso de falha."""
@@ -69,7 +70,7 @@ def executar_produtor():
         logger.error(f"❌ Falha ao inicializar o Confluent Producer: {e}")
         return
 
-    coletor = CryptoCollector(timeout=(3.0, 10.0), delay_entre_consultas=0.01)
+    coletor = CryptoCollector(timeout=(3.0, 10.0), delay_entre_consultas=0.01, consulta_em_lote=CONSULTA_EM_LOTE)
 
     logger.info("🚀 Produtor Cripto iniciado. Pressione Ctrl+C para encerrar.")
 

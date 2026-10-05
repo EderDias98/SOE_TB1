@@ -1,0 +1,5 @@
+confluent-kafka
+requests
+streamlit
+# 3.0.6 tem a DLL bloqueada pelo Smart App Control do Windows 11; a 3.0.5 carrega normalmente
+pandas==3.0.5
